@@ -1,0 +1,13 @@
+public class CommandLine{
+	public static void main(String args[]){
+		if(args.length>0){
+			for(String arguments : args){
+				System.out.println(arguments);
+			
+			}
+		
+		}
+	
+	}
+
+}
